@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+.Container{
+    width: 750px;
+    margin: auto;   
+    border-radius: 25px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 0.25em 0.25em 1em rgba(0, 0, 0, 0.3);
+}
+.content-container{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0.25em 0.25em 1em rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-family: 'Kanit';
+}
+.content:hover{
+    filter: brightness(80%);
+}
+.header{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Kanit';
+}
+
+@media  screen and (min-width:150px){
+    .Container{
+        width: 80%;
+    }
+    .header{
+        text-align: center;
+    }
+}
+@media screen and (min-width : 440px) and  (max-width : 640px) {
+    .Container{
+        width: 300px;
+    }
+}
+@media screen and (min-width : 640px) and (max-width : 900px) {
+    .Container{
+        width: 500px;
+    }
+}
